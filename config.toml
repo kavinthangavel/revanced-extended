@@ -2,7 +2,6 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced eXtended"
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
@@ -10,21 +9,22 @@ rv-brand = "ReVanced eXtended"
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
-build-mode = "both"   
-app-name = "YouTube RVX"
-excluded-patches = ""                                                 
-included-patches = ""                                                 
-version = "auto"                                                      
-exclusive-patches = false                                             
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-module-prop-name = "yt-rvx"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+patches-source = "Inotia00/revanced-patches"
+integrations-source = "Inotia00/revanced-integrations"
+rv-brand = "YT RVX"
+arch = "arm64-v8a"
+version = "latest"
+included-patches = "'Add splash animation' 'Enable song search' 'Premium heading' 'Shorts outline button'"
+excluded-patches = "'Custom branding icon YouTube'"
 
 [Music]
-build-mode = "both"
-app-name = "YTMusic RVX"
-excluded-patches = ""
-included-patches = ""
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-module-prop-name = "ytm-rvx"
-arch = "both"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+patches-source = "Inotia00/revanced-patches"
+integrations-source = "Inotia00/revanced-integrations"
+rv-brand = "YTM RVX"
+arch = "arm64-v8a"
+version = "latest"
+included-patches = "'Disable overlay filter' 'Enable color match player' 'Enable old player background' 'Enable old player layout' 'Enable zen mode' 'Hide double tap overlay filter' 'Replace cast button'"
+excluded-patches = "'Custom branding icon YouTube Music' 'Custom package name'"
+
