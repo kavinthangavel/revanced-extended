@@ -5,11 +5,42 @@
     "options": [
       {
         "key": "PackageNameYouTube",
-        "value": "yt.rvx.noname.exe"
+        "value": "yt.rvx.kvn.exe"
       },
       {
         "key": "PackageNameYouTubeMusic",
-        "value": "ytm.rvx.noname.exe"
+        "value": "ytm.rvx.kvn.exe"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom branding name YouTube",
+    "options": [
+      {
+        "key": "AppName",
+        "value": "YouTube RVX"
+      }
+    ]
+  },
+  {
+    "patchName": "Premium heading",
+    "options": [
+      {
+        "key": "UsePremiumHeading",
+        "value": "Yes"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom branding name YouTube Music",
+    "options": [
+      {
+        "key": "AppNameNotification",
+        "value": "Music RVX"
+      },
+      {
+        "key": "AppNameLauncher",
+        "value": "YTMusic RVX"
       }
     ]
   }
